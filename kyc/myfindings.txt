@@ -1,1 +1,49 @@
-hello thiss i sdsa das das d asd as
+UBS kyc
+1 source
+This image displays a conceptual mock-up of a digital onboarding platform designed for managing client information and regulatory compliance. The interface features a navigation sidebar that organises the workflow into critical stages, such as Know Your Customer (KYC), due diligence, and account activation. Annotations throughout the document provide technical instructions for developers, specifically detailing how to display source of wealth data and manage approval statuses. These notes highlight the need for automated document generation and clear sub-categories for financial corroboration. Ultimately, the source serves as a functional blueprint for streamlining the business relationship setup process within a professional services environment.
+
+Explain the end-to-end client onboarding workflow shown here.
+What specific requirements are listed for the EDD Assessment phase?
+Detail the three sub-categories required for Source of Wealth documentation.
+Today • 07:18
+Yes based on this user interface organise and provide me information per section
+
+Based on the provided user interface mockup, the information is organized into the following sections and sub-sections, along with their specific functional requirements:
+1. Client Information
+This section contains high-level details regarding the client and their associations
+.
+Partner Information
+Business Relationship
+2. KYC (Know Your Customer)
+This expanded section contains the core compliance and background check modules
+.
+Client Profile: This module is designed to capture client history to generate a CPAC draft (PQS) and a CRR (Client Risk Rating)
+.
+Name Screening: For the current phase, this will display basic details such as NMS ID and the status/result. It involves integrating an NMS agent without additional screen development from ACMO
+.
+Source of Wealth (SOW): This includes questions regarding AUM (Assets Under Management), Asset Information, and Agents. It is further divided into three sub-categories:
+Financial information
+SOW Narrative
+SOW Corroboration
+Note: There is a pending clarification (TBC) on whether the Narrative and Corroboration agents will use the same or separate screens
+.
+Due Diligence: This area manages employment data, assessments, questionnaires, and domicile verification, utilizing expand/collapse functions for navigation
+.
+EDD Assessment (Enhanced Due Diligence): This displays EDD results for all parties. It allows users to add an EDD case and provides a link to the EDD app for case creation. These assessments are calculated at the Partner and eligible related party levels, with sub-categories on the sidebar showing each party's name
+.
+3. Documents
+A dedicated section for managing and viewing client-related documentation
+.
+4. Products
+Contains information regarding the specific products or services being offered or utilized
+.
+5. Approvals
+This section tracks the status of all relevant approvals, including the EDD case approval status. There is a pending action for "Ram" to verify if approval actions can be performed directly within the app
+.
+6. Contracting
+Handles the legal and contractual phase of the onboarding process
+.
+7. Account Activation
+The final stage of the workflow, which includes:
+Welcoming Client
+Would you like me to create a tailored report summarizing the technical requirements and pending "TBC" items for your development team?
